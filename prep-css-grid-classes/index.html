@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Indiana Jones</h1>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src="images/raiders.jpg" width="100%">
+      <h3>Raiders of the Lost Ark</h3>
+      <p>
+        Raiders of the Lost Ark was rleased in 1981 and directed by Stephen Spielberg,
+        written by Lawrence Kasdan, with story by George Lucas and Philip Kaufman. George
+        Lucas was inspired by serial adventure films like Buck Rogers, Zorro's Fighting Legion,
+        and Spy Smasher that he enjoyed in his youth, and Raiders of the Lost Ark is essentially
+        a modernized take on those movies.
+      </p>
+    </div>
+    <div class="column">
+      <img src="images/temple.jpg" width = "100%">
+      <h3>Indiana Jones and the Temple of Doom</h3>
+      <p>
+        Indiana Jones and the Temple of Doom was released in 1984 and is a sequel to
+        Raiders of the Lost Ark. It was directed by Steven Spielberg, written by
+        Willard Huyck and Gloria Katz, and story by George Lucas. The film is much darker
+        in tone compared to the previous film (attributed to the turmoil and breakups
+        Lucas and Spielberg experienced during filming) which also led to the creation of
+        the PG-13 MPAA rating and Indiana Jones and the Temple of Doom is one of the first
+        films to carry such a rating.
+      </p>
+    </div>
+    <div class="column">
+      <img src= "images/crusade.png" width = "100%">
+      <h3>Indiana Jones and the Last Crusade</h3>
+      <p>
+        Indiana Jones and the Last Crusade was released in 1989 and is the third film in the
+        Indiana Jones series. It was directed by Steven Spielberg, written by Jeffrey Boam,
+        with story by George Lucas and Menno Meyjes. After Indiana Jones and the Temple of
+        Doom, Spielberg choose to tone down the violence and dark themes for this film. It also
+        has more comdedic elements compared to any of the previous films.
+      </p>
+
+    </div>
+  </div>
+</div>
+<!-- Complete the HTML here -->
+
+</body>
+</html>
