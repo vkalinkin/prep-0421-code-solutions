@@ -1,0 +1,17 @@
+var languagesArr = ['html', 'css', 'javascript', 'react', 'node.js'];
+console.log(languagesArr);
+console.log('languagesArr length: ', languagesArr.length);
+languagesArr.push('C#', 'php');
+console.log(languagesArr);
+languagesArr.pop();
+console.log(languagesArr);
+languagesArr.unshift('C++');
+console.log(languagesArr);
+languagesArr.shift();
+console.log(languagesArr);
+var thirdElement = languagesArr[2];
+console.log('Third element is: ', thirdElement);
+var arrayLength = languagesArr.length;
+console.log('Array length: ' + arrayLength);
+var lastItem = languagesArr[(arrayLength - 1)];
+console.log('The last item in the array is: ', lastItem);
